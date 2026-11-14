@@ -1,0 +1,17 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.vercel
+.env
+.env.*
+!.env.example
+.DS_Store
+.env*
+
+# Generated locally by `vercel build` from server/requirements.txt
+server/pyproject.toml
+server/uv.lock
+server/.vercel
