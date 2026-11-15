@@ -1,5 +1,10 @@
 # Aria — AI Clinical Trial Matching
 
+### 🔗 Live demo: **[aria-clinical-trials.vercel.app](https://aria-clinical-trials.vercel.app)**
+
+[![Live demo](https://img.shields.io/badge/Live%20demo-aria--clinical--trials.vercel.app-0e7490?style=for-the-badge&logo=vercel&logoColor=white)](https://aria-clinical-trials.vercel.app)
+[![CI](https://github.com/VaibhavWorlikar/RAG-enabled-Clinical-Trial-Matching-System/actions/workflows/ci.yml/badge.svg)](https://github.com/VaibhavWorlikar/RAG-enabled-Clinical-Trial-Matching-System/actions/workflows/ci.yml)
+
 Aria is a conversational assistant that matches patients with **currently recruiting clinical trials** from ClinicalTrials.gov. Describe your situation in plain language — or upload a doctor's report — and Aria extracts a structured profile, retrieves candidate trials with hybrid vector + structured search, screens each trial's eligibility criteria with an LLM, asks targeted follow-up questions when a verdict depends on missing facts, and explains the results with **contact details and the nearest study sites** for every promising trial.
 
 ### Features
